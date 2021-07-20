@@ -1,16 +1,20 @@
-# weather_app1
+# 위치기반 날씨 정보 앱
 
-A new Flutter project.
+## 개발환경
+- 프레임워크: flutter
+- 개발언어: dart
+- IDE: Android Studio
+- 이미지 정보: 무료제공 이미지 파일 사용
 
-## Getting Started
+## 기능
+- 위치 정보: flutter에서 제공하는 ```geolocator``` 패키지 사용
+- 날씨, 대기질 정보: [무료 API - openweathermap](https://openweathermap.org)
+1. 기온
+2. 날씨 상태
+3. AQI(대기질 지수)
+4. 미세먼지 농도
+5. 초미세먼지 농도
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+|Sample Screen|
+|-|
+|![image](https://user-images.githubusercontent.com/73534426/126285061-10a18fe8-64a1-422b-afe7-d95574cbf363.png)|
